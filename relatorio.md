@@ -1,28 +1,26 @@
-Atividade avaliativa A1- 2026
+# Atividade Avaliativa - Sistema de Escoamento de Unidades de Carga
 
+**Nome:** Enzo Dassi Carvalho   
+**RA:** 26006046    
+ 
+**Nome:** João Pedro Silveira de Souza    
+**RA:** 26009261    
+ 
+**Nome:** Luiz Gustavo Urias Vieira     
+**RA:** 26005065     
 
-Nome: Enzo Dassi Carvalho
-Ra: 26006046
-Nome: João Pedro Silveira de Souza
-Ra: 26009261
-Nome: Luiz Gustavo Urias Vieira
-Ra: 26005065
-
-Introdução
+# Introdução
 Este trabalho apresenta o desenvolvimento de um conjunto de códigos com o objetivo de resolver um problema físico de forma automatizada e compreensível. O foco principal foi modelar e calcular a variação de pressão.
 O sistema desenvolvido recebe essas leituras, realiza ajustes nos valores e classifica cada resultado em diferentes zonas (verde, amarelo ou vermelha).
 Além disso, ele calcula informações importantes, como a média das pressões registrada e a porcentagem de leituras em condições ideais.
 Dessa forma, o código permite um análise rápido, precisa e segura, facilitando a tomada de decisões mesmo para quem não possui conhecimento técnico.
 
-
-Desenvolvimento do projeto
+# Desenvolvimento do projeto
 O desenvolvimento do projeto não foi utilizado com biblioteca, foi só ativo do python como if, else, for que são comandos utilizados para filtrar a classificação das pressões, eles significam if é se “algo for verdadeiro faça algo”, else é se “não for verdadeiro faça isso e for que significa “para cada numero e para cada item”.
 As dificuldades foram na logica na programação do projeto e modulação.
 
-
-IDLE
+# IDLE
 O projeto deve ser executado no editor de código vscode
 
-
-Referencias biográficas
+# Referencias biográficas
 Colocar link dos sites utilizados
