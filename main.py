@@ -32,8 +32,7 @@ def seuc():
             print(f"A pressão está em {pressao:.2f}, portanto está na zona Vermelha(CRÍTICA)!")
             cont += 1
         if cont == 2:
-            #i = (total_leituras + 1)
-            #print("PROTOCOLO DE TRAVAMENTO FOI INICIADO!\nINTERROMPENDO ESCOAMENTO POR SEGURANÇA...")
+            print("PROTOCOLO DE TRAVAMENTO FOI INICIADO!\nINTERROMPENDO ESCOAMENTO POR SEGURANÇA...")
             break
     media = soma / leituras_feitas
     porc = (cont_verde / leituras_feitas) * 100
