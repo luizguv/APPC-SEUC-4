@@ -1,6 +1,7 @@
-import contas
-def chamar_leituras():
-    total_leituras = int(input("Digite o número total de leituras que irá ocorrer durante o turno: "))
+import seuc
+import impressoes
+
+def contas():
     cont = 0
     media = 0
     cont_verde = 0
@@ -8,7 +9,7 @@ def chamar_leituras():
     soma = 0
     menor = 999999999999999
 
-    for i in range(total_leituras):
+    for i in range(seuc.total_leituras):
         pressao = float(input("Informe a pressão (UPC): "))
         if pressao > 150:
             pressao *= 1.08
@@ -32,13 +33,11 @@ def chamar_leituras():
             print(f"A pressão está em {pressao:.2f}, portanto está na zona Vermelha(CRÍTICA)!")
             cont += 1
         if cont == 2:
-            i = (total_leituras + 1)
+            i = (seuc.total_leituras + 1)
             print("PROTOCOLO DE TRAVAMENTO FOI INICIADO!\nINTERROMPENDO ESCOAMENTO POR SEGURANÇA...")
             break
     media = soma / leituras_feitas
     porc = (cont_verde / leituras_feitas) * 100
 
+impressoes()
 
-    print(f"A porcentagem de leituras feitas na zona verde é {porc:.2f}%.")
-    print(f"A média das pressões já ajustadas é de: {media:.2f} UPC.")
-    print(f"Menor pressão registrada após o ajuste é: {menor:.2f} UPC.")
