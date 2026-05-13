@@ -1,5 +1,5 @@
 def ajustar_pressao(pressao): # Aplica o ajuste da pressão
-    if pressao > 150:
+    if pressao >= 150:
         return pressao * 1.08
     return pressao * 0.94
 
